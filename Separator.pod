@@ -1,0 +1,50 @@
+=head1 NAME
+
+Tk::Separator - Creates horizontal and vertical separators
+
+=for category  Tk Widget Classes
+
+=head1 SYNOPSIS
+
+I<$separator> = I<$parent>-E<gt>B<Separator>(?I<options>?);
+
+=head1 STANDARD OPTIONS
+
+See L<Tk::Frame> and L<Tk::Options> for details of the standard options.
+
+=head1 WIDGET-SPECIFIC OPTIONS
+
+=over 4
+
+=item -orient
+
+Either "vertical" or "horizontal." Specifies the desired alignment of the
+separator. Defaults to "horizontal." When packing this widget, set -fill to
+correspond with this value (i.e., if -orient is "horizontal" then -fill should
+be "x").
+
+=item -backgrounddark
+
+(Optional.) This allows you to specify a color other than the system default to
+use for the dark part of the line.
+
+=item -backgroundlight
+
+(Optional.) This allows you to specify a color other than the system default to
+use for the light part of the line.
+
+=back
+
+=head1 KEYWORDS
+
+separator, frame, widget
+
+=head1 COPYRIGHT
+
+Copyright 2003, William G. Davis.
+
+This code is free software released under the GNU General Public License, the
+full terms of which can be found in the "COPYING" file that came with the
+distribution of the module.
+
+=cut

@@ -1,0 +1,29 @@
+Tk/Separator version 0.50
+=========================
+
+For usage, run:
+ $ perldoc Tk::Separator
+after installation.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Tk
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2003 William G. Davis.
+
+This library is free software; you can redistribute it and/or modify
+it under the GNU General Public License, the terms of which can be found in
+the "COPYING" file in this directory.
